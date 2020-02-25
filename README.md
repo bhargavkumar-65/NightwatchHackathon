@@ -10,8 +10,8 @@
 2. Windows OS
 3. Latest NodeJS Version
 4. NightwatchJs V1.3.4
-5. SonarQube Binaries [download from : https://www.sonarqube.org/downloads/]
-6. Allure Binaries [Download from: https://github.com/allure-framework/allure2/releases/tag/2.13.2]
+5. SonarQube [Binaries] (https://www.sonarqube.org/downloads/)
+6. Allure [Binaries] (https://github.com/allure-framework/allure2/releases/tag/2.13.2)
 
 ## What Makes this Framework Unique?
 1. PAGE OBJECT MODEL 
