@@ -1,7 +1,7 @@
 # Project Submission By Bhargav Murarisetty
 
-### Hackathon Announcement Date : 21-Feb-2020 
-##### I tried to Learn JavaScript, NightWatchJS, Gain all knowledge i could in 4 days to Submit This Project.
+### Hackathon Announcement Date: 21-Feb-2020 
+##### I started Learning JavaScript, NightWatchJS and Gained all knowledge i could in 4 days.
 
 ##### My primary focus was on simplicity, Ease of use and Cover Todays Software Testing Needs. I tried to make it as generic and reusable as possible. In the worst case, you can use this as a learning guide for your projects.
 
@@ -10,6 +10,8 @@
 2. Windows OS
 3. Latest NodeJS Version
 4. NightwatchJs V1.3.4
+5. SonarQube Binaries [download from : https://www.sonarqube.org/downloads/]
+6. Allure Binaries [Download from: https://github.com/allure-framework/allure2/releases/tag/2.13.2]
 
 ## What Makes this Framework Unique?
 1. PAGE OBJECT MODEL 
@@ -50,3 +52,4 @@ a.k.a Human Eye Testing, VRT is user-interface(UI) testing by capturing the scre
 
 #### What Visual Regression Testing is covered
 * upon running command [npm run test:vrt] tests downloads the logo of telus.com and compares with BaseLine Logo which is captured in previous runs. After that, It Compares Both the ScreenShot and Gives Us Result if it is the same as the baseline image or it is altered.
+
