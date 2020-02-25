@@ -20,6 +20,18 @@
 4. Custom Commands For Ease of Use.
 5. Azure DevOps Pipeline Connection
 
+> [**“Page Object Model”**]<br>
+> — To Organize code
+
+> [**“Docker Grid”**]<br>
+> — For Parallel Executions on Docker Containers
+
+> [**“SonarQube Integration**]<br>
+> — For Continuous Code Quality Checks
+
+
+
+
 ### What All Custom Commands are Created?
 #### npm run 
     1. "test:vrt" : For Running Visual Regression Tests 
