@@ -20,13 +20,13 @@
 4. Custom Commands For Ease of Use.
 5. Azure DevOps Pipeline Connection
 
-![#f03c15] > [**“Page Object Model”**]<br> `#f03c15`
+> [**“Page Object Model”**](https://github.com/bhargavkumar-65/NightWatchHackathon)<br>
 > — To Organize code
 
-> [**“Docker Grid”**]<br>
+> [**“Docker Grid”**](https://github.com/bhargavkumar-65/NightWatchHackathon)<br>
 > — For Parallel Executions on Docker Containers
 
-> [**“SonarQube Integration**]<br>
+> [**“SonarQube Integration**](https://github.com/bhargavkumar-65/NightWatchHackathon)<br>
 > — For Continuous Code Quality Checks
 
 
