@@ -24,11 +24,13 @@ module.exports = {
             .verifylinks('@offerlink','whole-home-offer')
             .verifytxt('@loginButton','Log in')
             .verifylinks('@loginlink','login')
-            .waitForElementVisible('@InternetMenu',20000)
+       //     .verify.element('.czBJsN.Heading__StyledHeading-mpz92r-0:nth-of-type(1)').text.to.startWith('Save up to $2,040')
+            .waitForElementVisible('@InternetMenu',20000, false, function() {}, 'element not present ')
             .assert.visible({selector: '#main-nav-list-item-1', supressNoSuchElementError: true})
         assertionspage
         .assert.not.visible('@HiddenElement')
-        .expect.element('@HiddenElement').not.to.be.visible // Same as assert.not.visible
+        .expect.element('@HiddenElement').not.to.be.visible /* Same as assert.not.visible */
+       // .expect.element('@HiddenElement').not.to.be.visible.to.have.css('.fsbrBF.sc-fONwsr').which.equals('.fsbrBF.sc-fONwsr')
 
 
 

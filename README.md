@@ -47,6 +47,10 @@
 4. Allure Reports
 5. Azure Devops Pipelines
 
+## How To Run Tests
+1. UI Only Tests : npm run test -- tests/TelusHome.js
+2. Assertions Only Test : npm run test -- tests/assertions.js
+
 ## What is  Visual Regression Testing (VRT)?
 a.k.a Human Eye Testing, VRT is user-interface(UI) testing by capturing the screenshots of web pages/UI and compare them with the original images (either historical baseline screenshots or reference images from live website)
 
