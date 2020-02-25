@@ -1,0 +1,54 @@
+# Usage:
+#   docker-compose up --force-recreate
+version: '3'
+
+services:
+  #--------------#
+  zalenium:
+    image: "dosel/zalenium:3"
+    container_name: zalenium
+    hostname: zalenium
+    tty: true
+    volumes:
+      - ./Docker/Zalenium/volumes/Videos:/home/seluser/videos
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      #- "/usr/bin/docker:/usr/bin/docker"
+    ports:
+      - 4444:4444
+    command: >
+      start --desiredContainers 2
+            --maxDockerSeleniumContainers 8
+            --screenWidth 800 --screenHeight 600
+            --timeZone "Asia/Kolkata"
+            --videoRecordingEnabled true
+            --sauceLabsEnabled false
+            --browserStackEnabled false
+            --testingBotEnabled false
+            --cbtEnabled false
+            --lambdaTestEnabled false
+            --startTunnel false
+
+    environment:
+      - HOST_UID
+      - HOST_GID
+      - SAUCE_USERNAME
+      - SAUCE_ACCESS_KEY
+      - BROWSER_STACK_USER
+      - BROWSER_STACK_KEY
+      - TESTINGBOT_KEY
+      - TESTINGBOT_SECRET
+      - CBT_USERNAME
+      - CBT_AUTHKEY
+      - LT_USERNAME
+      - LT_ACCESS_KEY
+#      - zalenium_http_proxy=http://genproxy.amdocs.com:8080
+#      - zalenium_https_proxy=https://genproxy.amdocs.com:8080
+#      - zalenium_no_proxy=172.16/12, 10.0.0.0/8, *.local, 169.254/16, 192.168.99.*, localhost, 127.0.0.1
+
+  selenium:
+    image: "elgalu/selenium:3.141"
+
+#MORE ENV PARAMS    
+#      - zalenium_http_proxy=http://genproxy.amdocs.com:8080
+#      - zalenium_https_proxy=https://genproxy.amdocs.com:8080
+#      - zalenium_no_proxy=172.16/12, 10.0.0.0/8, *.local, 169.254/16, 192.168.99.*, localhost, 127.0.0.1"

@@ -1,0 +1,16 @@
+node_modules
+tests_output
+*.log
+allure-2.13.1
+allure_report
+.scannerwork
+Docker_Files/reportportal/V5/volumes
+Docker_Files/sonarqube/volumes
+Docker_Files/Zalenium/volumes
+README.md
+Docker/sonarqube/yaml/volumes/
+~$README.md
+NightWatchJsFramework
+allure-report
+vrt/latest
+vrt/diff

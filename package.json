@@ -1,0 +1,33 @@
+{
+  "name": "nightwatchjsframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch -c ./nightwatch.conf.js",
+    "test:vrt": "nightwatch -c nightwatch.vrt.conf.js",
+    "test:chrome": "nightwatch --config ./nightwatch.conf.js",
+    "consolidate:vrt": "CONSOLIDATE=1 npm run test:vrt",
+    "zalenium:start": "docker-compose -f ./Docker/Zalenium/yaml/docker-compose.yml -p zalenium up -d --force-recreate --build",
+    "zalenium:end": "docker-compose -f ./Docker/Zalenium/yaml/docker-compose.yml -p zalenium down",
+    "test:zalenium": "nightwatch --config ./zalenium.conf.js",
+    "test:reportportal": "nightwatch --reporter ./reporter.js",
+    "sonar:start": "docker-compose -f ./Docker/sonarqube/yaml/docker-compose.yml -p sonarqube up -d --force-recreate --build",
+    "sonar:scan": "sonar-scanner -D 'sonar.projectKey=nightwatch' -D 'sonar.sources=.' -D 'sonar.host.url=http://localhost:9000' -D 'sonar.login=1c2ce8a56478fc6c9be85b162be18ef7e918d6b3'",
+    "sonar:end":"docker-compose -f ./Docker/sonarqube/yaml/docker-compose.yml -p sonarqube down"
+  
+  },
+  "author": "Bhargav.Murarisetty",
+  "license": "ISC",
+  "devDependencies": {
+    "@reportportal/agent-js-nightwatch": "^0.2.0",
+    "allure-commandline": "^2.13.0",
+    "chromedriver": "^80.0.1",
+    "nightwatch": "^1.3.4",
+    "nightwatch-vrt": "^0.2.10",
+    "reportportal-client": "^5.5.0",
+    "request": "^2.88.2",
+    "sonarqube-scanner": "^2.5.0"
+  },
+  "dependencies": {}
+}

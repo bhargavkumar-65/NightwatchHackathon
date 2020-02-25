@@ -1,0 +1,16 @@
+{
+  
+    "token": "fa37cd8f-f840-4508-97f3-d2abbd705011",
+    "endpoint": "http://bhargamu05:8080/api/v1",
+    "project": "selenium",
+    "launch": "superadmin_TEST_EXAMPLE",
+ 
+    "agentOptions": {
+        "launchParams": {
+
+            "description": "YourJNSDM launch description",
+            "rerun": true,
+            "rerunOf": "fa37cd8f-f840-4508-97f3-d2abbd705011"
+        }
+    }
+}
