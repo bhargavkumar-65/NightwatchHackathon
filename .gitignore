@@ -13,3 +13,4 @@ NightWatchJsFramework
 allure-report
 vrt/latest
 vrt/diff
+*.bak
