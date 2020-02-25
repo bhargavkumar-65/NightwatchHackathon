@@ -22,14 +22,14 @@
 
 ### What All Custom Commands are Created?
 #### npm run 
-    1. "test:vrt" : For Running Visual Regression Tests 
-    2. "test:chrome" : For Running on Chrome Local Browser
-    3. "zalenium:start" : Bring Zalenium UP on Port 4444
-    4. "test:zalenium" : For Running on Docker Containers
-    5. "zalenium:end" : Bring Zalenium DOWN
-    6. "sonar:start" : Bring SONARQUBE UP
-    7. "sonar:scan" : SCAN JAVASCRIPT Code for Quality Checks
-    8. "sonar:end" : Bring SONARQUBE Down
+    1. "test:vrt" 				: For Running Visual Regression Tests 
+    2. "test:chrome" 			: For Running on Chrome Local Browser
+    3. "zalenium:start" 	: Bring Zalenium UP on Port 4444
+    4. "test:zalenium" 		: For Running on Docker Containers
+    5. "zalenium:end" 		: Bring Zalenium DOWN
+    6. "sonar:start" 			: Bring SONARQUBE UP
+    7. "sonar:scan" 			: SCAN JAVASCRIPT Code for Quality Checks
+    8. "sonar:end" 				: Bring SONARQUBE Down
 
 ### What Tests are Covered Under This Repo?
 
@@ -52,9 +52,8 @@ a.k.a Human Eye Testing, VRT is user-interface(UI) testing by capturing the scre
 
 #### What Visual Regression Testing is covered
 * upon running command [npm run test:vrt] Scripts Will Perform Below
-	* downloads the logo of telus.com
-	* downloads the Giraffee image on home scree
-	* GetStarted Button Image
-Once download is Complete it compares with BaseLine images which is captured in previous runs and Gives Us Result. 
-For More Info on Visual Regression Test Understanding Checkout the Video on this Repo Document Section. 
+	* Download the logo of telus.com, Giraffee image on home screen and GetStarted Button Image
+	* Once download is Complete it compares with BaseLine images which is captured in previous runs and Gives Us Result
+	
+* For More Info on Visual Regression Test Understanding Checkout the Video on this Repo Document Section. 
 
