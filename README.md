@@ -22,14 +22,14 @@
 
 ### What All Custom Commands are Created?
 #### npm run 
-    1. "test:vrt" 				: For Running Visual Regression Tests 
-    2. "test:chrome" 			: For Running on Chrome Local Browser
-    3. "zalenium:start" 				: Bring Zalenium UP on Port 4444
-    4. "test:zalenium" 					: For Running on Docker Containers
-    5. "zalenium:end" 		: Bring Zalenium DOWN
-    6. "sonar:start" 			: Bring SONARQUBE UP
-    7. "sonar:scan" 			: SCAN JAVASCRIPT Code for Quality Checks
-    8. "sonar:end" 				: Bring SONARQUBE Down
+    1. "test:vrt" : For Running Visual Regression Tests 
+    2. "test:chrome" : For Running on Chrome Local Browser
+    3. "zalenium:start" : Bring Zalenium UP on Port 4444
+    4. "test:zalenium" : For Running on Docker Containers
+    5. "zalenium:end" : Bring Zalenium DOWN
+    6. "sonar:start" : Bring SONARQUBE UP
+    7. "sonar:scan" : SCAN JAVASCRIPT Code for Quality Checks
+    8. "sonar:end" : Bring SONARQUBE Down
 
 ### What Tests are Covered Under This Repo?
 
