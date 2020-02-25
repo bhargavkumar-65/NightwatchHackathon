@@ -14,22 +14,21 @@
 6. Allure [Binaries](https://github.com/allure-framework/allure2/releases/tag/2.13.2)
 
 ## What Makes this Framework Unique?
-1. PAGE OBJECT MODEL 
-2. DOCKER GRID Integrated for Parallel Execution in Different Browsers
-3. CODE QUALITY Measurement with SonarQube Integration
-4. Custom Commands For Ease of Use.
-5. Azure DevOps Pipeline Connection
 
-> [**“Page Object Model”**](https://github.com/bhargavkumar-65/NightWatchHackathon)<br>
+> [**“Page Object Model”**](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/page-objects)<br>
 > — To Organize code
 
-> [**“Docker Grid”**](https://github.com/bhargavkumar-65/NightWatchHackathon)<br>
+> [**“Docker Grid”**](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Docker_Files/Zalenium/yaml)<br>
 > — For Parallel Executions on Docker Containers
 
-> [**“SonarQube Integration**](https://github.com/bhargavkumar-65/NightWatchHackathon)<br>
+> [**“SonarQube Integration**](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Docker_Files/sonarqube/yaml)<br>
 > — For Continuous Code Quality Checks
 
+> [**“Custom Test Runner Commands**](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/package.json)<br>
+> — Custom Commands in Package.Json for Ease of Run
 
+> [**“Azure PipeLine**](https://dev.azure.com/)<br>
+> — Azure DevOps Pipeline Connection
 
 
 ### What All Custom Commands are Created?
