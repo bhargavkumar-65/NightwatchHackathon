@@ -7,7 +7,6 @@ allure_report
 Docker_Files/reportportal/V5/volumes
 Docker_Files/sonarqube/volumes
 Docker_Files/Zalenium/volumes
-README.md
 Docker/sonarqube/yaml/volumes/
 ~$README.md
 NightWatchJsFramework
