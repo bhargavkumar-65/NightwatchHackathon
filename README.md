@@ -1,6 +1,6 @@
 # Project Submission By Bhargav Murarisetty
 
-### Hackathon Announcement Date: 21-Feb-2020 
+### Hackathon Announcement Date : 21-Feb-2020 
 ##### I tried to Learn JavaScript, NightWatchJS, Gain all knowledge i could in 4 days to Submit This Project.
 
 ##### My primary focus was on simplicity, Ease of use and Cover Todays Software Testing Needs. I tried to make it as generic and reusable as possible. In the worst case, you can use this as a learning guide for your projects.
