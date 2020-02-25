@@ -20,7 +20,7 @@
 4. Custom Commands For Ease of Use.
 5. Azure DevOps Pipeline Connection
 
-> [**“Page Object Model”**]<br>
+![#f03c15] > [**“Page Object Model”**]<br> `#f03c15`
 > — To Organize code
 
 > [**“Docker Grid”**]<br>
