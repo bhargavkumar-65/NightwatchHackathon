@@ -50,3 +50,6 @@ a.k.a Human Eye Testing, VRT is user-interface(UI) testing by capturing the scre
 
 #### What Visual Regression Testing is covered
 * upon running command [npm run test:vrt] tests downloads the logo of telus.com and compares with BaseLine Logo which is captured in previous runs. After that, It Compares Both the ScreenShot and Gives Us Result if it is the same as the baseline image or it is altered.
+
+[text-1][ref-1]
+[ref-1]: http://example.org
