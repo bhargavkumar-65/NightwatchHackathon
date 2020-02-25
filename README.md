@@ -1,9 +1,9 @@
 # Project Submission By Bhargav Murarisetty
 
 ### Hackathon Announcement Date: 21-Feb-2020 
-##### I started Learning JavaScript, NightWatchJS and Gained all knowledge i could in 4 days.
+##### I tried Learn JavaScript, NightWatchJS and Gained all possible knowledge that i could in last 4 days.
 
-##### My primary focus was on simplicity, Ease of use and Cover Todays Software Testing Needs. I tried to make it as generic and reusable as possible. In the worst case, you can use this as a learning guide for your projects.
+##### My primary focus was on simplicity, Ease of use Framework that Cover Todays Software Testing Needs. I tried to make it as generic and reusable as possible. In the worst case, you can use this as a learning guide for your projects.
 
 ### System and Software Requirements
 1. Docker v17 and above.
