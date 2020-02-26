@@ -22,7 +22,7 @@ steps:
   displayName: 'Nightwatch Dependency Resolve'
 
 - script:
-    npm run test
+    xvfb-run npm test
 #    npm run test
   displayName: 'Nightwatch Test Run'
 
