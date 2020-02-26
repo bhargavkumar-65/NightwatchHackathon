@@ -5,6 +5,8 @@ module.exports = {
         cssProperty:'html[lang="en"]',
         domProperty:'.eorkqv.sc-fMiknA>a',
         HiddenElement:'div[aria-hidden="true"]:first-of-type',
+        SmallBusinessTab:'a[class="sc-kEYyzF sc-caSCKo gVMHEn"]:nth-of-type(1)',
+        BusinessTab:'a[data-di-id="di-id-347c04e5-5af71c37"]',
 
     },
     commands: [{

@@ -12,7 +12,7 @@
 4. NightwatchJs V1.3.4
 5. SonarQube [Binaries](https://www.sonarqube.org/downloads/)
 6. Allure [Binaries](https://github.com/allure-framework/allure2/releases/tag/2.13.2)
-7. Google Chrome V79 and Above [if you dont have latest v79 and above chrome installed, make sure to update NPM Dependency with respective chrome version, npm i chromedriver@79.0.0 --save-dev, Version Specific details can be found here(https://www.npmjs.com/package/chromedriver)]
+7. Google Chrome V79 and Above [if you dont have latest v79 and above chrome installed, make sure to update NPM Dependency with respective chrome version, 'npm i chromedriver@SPECIFIC_VERSION --save-dev', Version Specific details can be found here(https://www.npmjs.com/package/chromedriver)]
 
 ## What Makes this Framework Unique?
 
@@ -32,7 +32,7 @@
 > — Azure DevOps Pipeline Connection
 
 
-### What All Custom Commands are Created?
+### What All Custom Test RUN Commands are Created?
 #### npm run 
     1. "test:vrt" : For Running Visual Regression Tests 
     2. "test:chrome" : For Running on Chrome Local Browser
@@ -43,13 +43,20 @@
     7. "sonar:scan" : SCAN JAVASCRIPT Code for Quality Checks
     8. "sonar:end" : Bring SONARQUBE Down
 
+### What All Custom POM Commands are Created?
+		1. linkclick [ Re-Usable Click Function with .click assertion]
+		2. verifylinks [ Re-Usable Click Function with .assert.attributeContains]
+		3. verifytxt [ Re-Usable Click Function with .assert.containsText]
+		4. entertext [ Re-Usable Click Function with .setValue assertion]
+
 ### What Tests are Covered Under This Repo?
 
 1. UI Test Cases
 2. Visual Regression TestCase
-3. Cucumber TestCase
-4. Continuous Integration TestCase using AzureDevops CI
-5. Parallel Executions in Docker Containers
+3. Cookie Validation TestCase
+4. Cucumber TestCase
+5. Continuous Integration TestCase using AzureDevops CI
+6. Parallel Executions in Docker Containers
 
 ### What All External Integrations are Covered?
 

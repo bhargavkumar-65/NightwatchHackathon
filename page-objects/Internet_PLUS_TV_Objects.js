@@ -21,7 +21,7 @@ commands: [{
     },
     entertext(selector,text){
 return this
-.setValue(selector,text);
+        .setValue(selector,text);
 
     },
     verifytxt(selector,text){

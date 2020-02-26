@@ -20,6 +20,8 @@ module.exports = {
             .verify.not.urlContains('ens/')
             .assert.urlEquals('https://www.telus.com/en/')
             .assert.titleContains('TELUS')
+            .expect.cookie('AAMC_telus_0').to.contain('REGION%7C12')
+          home_page    
             .verifytxt('@offerButton','View offer')
             .verifylinks('@offerlink','whole-home-offer')
             .verifytxt('@loginButton','Log in')
@@ -27,11 +29,17 @@ module.exports = {
        //     .verify.element('.czBJsN.Heading__StyledHeading-mpz92r-0:nth-of-type(1)').text.to.startWith('Save up to $2,040')
             .waitForElementVisible('@InternetMenu',20000, false, function() {}, 'element not present ')
             .verify.visible({selector: '#main-nav-list-item-1', supressNoSuchElementError: true})
-        assertionspage
-        .assert.not.visible('@HiddenElement')
-        .expect.element('@HiddenElement').not.to.be.visible /* Same as assert.not.visible */
-       // .expect.element('@HiddenElement').not.to.be.visible.to.have.css('.fsbrBF.sc-fONwsr').which.equals('.fsbrBF.sc-fONwsr')
+            .waitForElementVisible('@BusinessTab',40000)
+            .linkclick('@BusinessTab')
+            .pause(3000)
+            .linkclick('@SmallBusinessTab')
+            .expect.cookie('aa_lastProductViewed').to.contain('business/small') /*Validating Last Product Viewed Cookie */
 
+        assertionspage
+            .assert.not.visible('@HiddenElement')
+            .expect.element('@HiddenElement').not.to.be.visible /* Same as assert.not.visible */
+       /* .expect.element('@HiddenElement').not.to.be.visible.to.have.css('.fsbrBF.sc-fONwsr').which.equals('.fsbrBF.sc-fONwsr') */
+            
 
 
     }
