@@ -22,13 +22,13 @@
 > [**“Docker Grid”**](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Docker_Files/Zalenium/yaml)<br>
 > — For Parallel Executions on Docker Containers
 
-> [**“SonarQube Integration**](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Docker_Files/sonarqube/yaml)<br>
+> [**“SonarQube Integration"**](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Docker_Files/sonarqube/yaml)<br>
 > — For Continuous Code Quality Checks
 
-> [**“Custom Test Runner Commands**](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/package.json)<br>
+> [**“Custom Test Runner Commands"**](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/package.json)<br>
 > — Custom Commands in Package.Json for Ease of Run
 
-> [**“Azure PipeLine**](https://dev.azure.com/)<br>
+> [**“Azure PipeLine"**](https://dev.azure.com/)<br>
 > — Azure DevOps Pipeline Connection
 
 
@@ -56,7 +56,7 @@
 3. Cookie Validation TestCase
 4. Cucumber TestCase
 5. Continuous Integration TestCase using AzureDevops CI
-6. Parallel Executions in Docker Containers
+6. Parallel Execution Test Case in Docker Containers
 
 ### What All External Integrations are Covered?
 
