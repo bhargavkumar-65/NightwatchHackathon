@@ -72,25 +72,29 @@
 4. Allure Reports
 5. Azure Devops Pipelines
 
+## Running Tests on Docker Selenium Grid
+
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/Zalenium.PNG)
+
+
+
 ## How To Run Tests
-1. UI Only Tests : npm run test -- tests/TelusHome.js
-2. Assertions Only Test : npm run test -- tests/assertions.js
+1. UI Only Tests : npm run test -- test:ui
+2. Assertions Only Test : npm run test:assertions
 
 ## What is  Visual Regression Testing (VRT)?
 a.k.a Human Eye Testing, VRT is user-interface(UI) testing by capturing the screenshots of web pages/UI and compare them with the original images (either historical baseline screenshots or reference images from live website)
+
+## How Visual Validation Works?
+
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/VisualRegression.PNG)
+
+
+* For More Info on Visual Regression Test Understanding Checkout the Video on this Repo Document [Section](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Documentation/Visual%20Regression) 
 
 #### What Visual Regression Testing is covered
 * upon running command [npm run test:vrt] Scripts Will Perform Below
 	* Download the logo of telus.com, Giraffee image on home screen and GetStarted Button Image
 	* Once download is Complete it compares with BaseLine images which is captured in previous runs and Gives Us Result
 
-## How Visual Validation Works?
-
-
-<h2 align="center">Visual Validation</h2>
-
-![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/VisualRegression.PNG)
-
-
-* For More Info on Visual Regression Test Understanding Checkout the Video on this Repo Document [Section](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Documentation/Visual%20Regression) 
 

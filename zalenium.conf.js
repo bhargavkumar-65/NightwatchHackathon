@@ -19,9 +19,9 @@ module.exports =  {
   },
   "test_settings" : {
   "default" : {
-    "launch_url" : "http://localhost",
+    "launch_url" : "http://bhargamu05",
     "selenium_port"  : 4444,
-    "selenium_host"  : "localhost",
+    "selenium_host"  : "bhargamu05",
     "silent": true,
     "screenshots" : {
       "enabled" : true,
