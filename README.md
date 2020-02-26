@@ -14,6 +14,13 @@
 6. Allure [Binaries](https://github.com/allure-framework/allure2/releases/tag/2.13.2)
 7. Google Chrome V79 and Above [if you dont have latest v79 and above chrome installed, make sure to update NPM Dependency with respective chrome version, 'npm i chromedriver@SPECIFIC_VERSION --save-dev', Version Specific details can be found here(https://www.npmjs.com/package/chromedriver)]
 
+## Project Architecture
+
+<h4 align="center">Modern Theme</h4>
+
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/ProjectArchitecture.PNG)
+
+
 ## What Makes this Framework Unique?
 
 > [**“Page Object Model”**](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/page-objects)<br>
