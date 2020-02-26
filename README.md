@@ -98,3 +98,6 @@ a.k.a Human Eye Testing, VRT is user-interface(UI) testing by capturing the scre
 	* Once download is Complete it compares with BaseLine images which is captured in previous runs and Gives Us Result
 
 
+## Continuous Integration On Azure DevOps
+
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/CI_Azure_DevOps.PNG)

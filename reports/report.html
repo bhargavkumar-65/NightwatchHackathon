@@ -120,43 +120,31 @@ $(document).ready(function() {
   <body>
     <h1>Nightwatch Results</h1>
     <div id="container"><a class="toggleSuccess" href="#">Show/Hide Successes</a>
-      <div class="package success">
-        <h2 class="name">&#10003; TelusHome</h2>
+      <div class="package error">
+        <h2 class="name">&#10005; TelusHome</h2>
         <div class="suites">
-          <div class="suite success">
+          <div class="suite error">
             <h3 class="name">Telus Home Page : Verify Home Screen</h3>
             <ul class="testcases">
               <li class="testcase success">
                 <div class="status">&#10003;</div>
-                <div class="name">Testing if the URL contains [0;33m'en/'[0m [0;90m(41ms)[0m</div>
+                <div class="name">Testing if the URL contains [0;33m'en/'[0m [0;90m(112ms)[0m</div>
               </li>
               <li class="testcase success">
                 <div class="status">&#10003;</div>
-                <div class="name">Testing if the page title contains [0;33m'TELUS'[0m [0;90m(29ms)[0m</div>
+                <div class="name">Testing if the page title contains [0;33m'TELUS'[0m [0;90m(568ms)[0m</div>
               </li>
               <li class="testcase success">
                 <div class="status">&#10003;</div>
-                <div class="name">Testing if element [0;33m&lt;Element [name=@offerButton]&gt;[0m contains text [0;33m'View offer'[0m [0;90m(329ms)[0m</div>
+                <div class="name">Testing if element [0;33m&lt;Element [name=@offerButton]&gt;[0m contains text [0;33m'View offer'[0m [0;90m(122ms)[0m</div>
               </li>
               <li class="testcase success">
                 <div class="status">&#10003;</div>
-                <div class="name">Testing if attribute [0;33m'href'[0m of element [0;33m&lt;Element [name=@offerlink]&gt;[0m contains [0;33m'whole-home-offer'[0m [0;90m(1912ms)[0m</div>
+                <div class="name">Testing if attribute [0;33m'href'[0m of element [0;33m&lt;Element [name=@offerlink]&gt;[0m contains [0;33m'whole-home-offer'[0m [0;90m(102ms)[0m</div>
               </li>
-              <li class="testcase success">
-                <div class="status">&#10003;</div>
-                <div class="name">Testing if element [0;33m&lt;Element [name=@loginButton]&gt;[0m contains text [0;33m'Log in'[0m [0;90m(322ms)[0m</div>
-              </li>
-              <li class="testcase success">
-                <div class="status">&#10003;</div>
-                <div class="name">Testing if attribute [0;33m'href'[0m of element [0;33m&lt;Element [name=@loginlink]&gt;[0m contains [0;33m'login'[0m [0;90m(108ms)[0m</div>
-              </li>
-              <li class="testcase success">
-                <div class="status">&#10003;</div>
-                <div class="name">Element &lt;#header-container &gt; div.sc-gwVKww.fmShgA &gt; div &gt; div &gt; div.sc-tilXH.jGFpkr &gt; ul &gt; li:nth-child(2) &gt; div &gt; div &gt; div &gt; div &gt; div.sc-eNQAEJ.doFReb &gt; div:nth-child(1) &gt; ul &gt; li:nth-child(3) &gt; a&gt; was visible after 216 milliseconds.</div>
-              </li>
-              <li class="testcase success">
-                <div class="status">&#10003;</div>
-                <div class="name">Expected element &lt;#header-container &gt; div.sc-gwVKww.fmShgA &gt; div &gt; div &gt; div.sc-tilXH.jGFpkr &gt; ul &gt; li:nth-child(2) &gt; div &gt; div &gt; div &gt; div &gt; div.sc-eNQAEJ.doFReb &gt; div:nth-child(1) &gt; ul &gt; li:nth-child(3) &gt; a&gt; to be enabled[0;90m (189ms)[0m</div>
+              <li class="testcase error">
+                <div class="status">&#10005;</div>
+                <div class="name">Testing if element [0;33m&lt;Element [name=@loginButton]&gt;[0m contains text [0;33m'Log in'[0m in 5000ms - expected [0;32m&quot;contains text 'Log in'&quot;[0m but got: [0;31m&quot;does not contain 'Log in'&quot;[0m [0;90m(5085ms)[0m Expected &quot;contains text 'Log in'&quot; but got: &quot;does not contain 'Log in'&quot;</div>
               </li>
             </ul>
           </div>

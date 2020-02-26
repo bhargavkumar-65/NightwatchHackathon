@@ -12,7 +12,10 @@ module.exports =  {
       "default": {
   //      "test_runner" : "mocha",
         "desiredCapabilities": {
-          "browserName": "chrome"
+          "browserName": "chrome",
+          'chromeOptions': {
+            'args': ['--headless']
+        }
         },
         "waitOperationTimeout": 1000,
 
