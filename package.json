@@ -15,15 +15,15 @@
     "sonar:start": "docker-compose -f ./Docker/sonarqube/yaml/docker-compose.yml -p sonarqube up -d --force-recreate --build",
     "sonar:scan": "sonar-scanner -D 'sonar.projectKey=nightwatch' -D 'sonar.sources=.' -D 'sonar.host.url=http://localhost:9000' -D 'sonar.login=1c2ce8a56478fc6c9be85b162be18ef7e918d6b3'",
     "sonar:end": "docker-compose -f ./Docker/sonarqube/yaml/docker-compose.yml -p sonarqube down"
- 
   },
   "author": "Bhargav.Murarisetty",
   "license": "ISC",
   "devDependencies": {
     "@reportportal/agent-js-nightwatch": "^0.2.0",
     "allure-commandline": "^2.13.0",
-    "chromedriver": "^80.0.1",
+    "chromedriver": "^79.0.0",
     "nightwatch": "^1.3.4",
+    "nightwatch-html-reporter": "^2.0.6",
     "nightwatch-vrt": "^0.2.10",
     "reportportal-client": "^5.5.0",
     "request": "^2.88.2",

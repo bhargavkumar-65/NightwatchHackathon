@@ -12,6 +12,7 @@
 4. NightwatchJs V1.3.4
 5. SonarQube [Binaries](https://www.sonarqube.org/downloads/)
 6. Allure [Binaries](https://github.com/allure-framework/allure2/releases/tag/2.13.2)
+7. Google Chrome V79 and Above [if you dont have latest v79 and above chrome installed, make sure to update NPM Dependency with respective chrome version, npm i chromedriver@79.0.0 --save-dev, Version Specific details can be found here(https://www.npmjs.com/package/chromedriver)]
 
 ## What Makes this Framework Unique?
 

@@ -26,7 +26,7 @@ module.exports = {
             .verifylinks('@loginlink','login')
        //     .verify.element('.czBJsN.Heading__StyledHeading-mpz92r-0:nth-of-type(1)').text.to.startWith('Save up to $2,040')
             .waitForElementVisible('@InternetMenu',20000, false, function() {}, 'element not present ')
-            .assert.visible({selector: '#main-nav-list-item-1', supressNoSuchElementError: true})
+            .verify.visible({selector: '#main-nav-list-item-1', supressNoSuchElementError: true})
         assertionspage
         .assert.not.visible('@HiddenElement')
         .expect.element('@HiddenElement').not.to.be.visible /* Same as assert.not.visible */

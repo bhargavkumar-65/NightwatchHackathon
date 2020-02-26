@@ -5,11 +5,12 @@ module.exports =  {
   "globals_path" : "global.js",
   "webdriver": {
       "start_process": "true",
-      "server_path": "node_modules/.bin/chromedriver.exe",
+      "server_path": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe",
       "port": 9515
   },
   "test_settings": {
       "default": {
+  //      "test_runner" : "mocha",
         "desiredCapabilities": {
           "browserName": "chrome"
         },
