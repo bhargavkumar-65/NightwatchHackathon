@@ -13,9 +13,9 @@ module.exports =  {
   //      "test_runner" : "mocha",
         "desiredCapabilities": {
           "browserName": "chrome",
-          'chromeOptions': {
+/*           'chromeOptions': {
             'args': ['--headless']
-        }
+        } */ // //Enable this Block to Run via Command Line
         },
         "waitOperationTimeout": 1000,
 
