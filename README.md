@@ -1,5 +1,5 @@
 # Project Submission By Bhargav Murarisetty
-[![LinkedIn](https://img.icons8.com/color/344/linkedin.png)](http://linkedin.com/)
+[![LinkedIn](https://github.com/bhargavkumar-65/dummyrepo/blob/master/1280px-LinkedIn_Logo.svg.png)](https://www.linkedin.com/in/bhargavmurari/)
 ### Hackathon Announcement Date: 21-Feb-2020 
 ##### I tried to Learn JavaScript, NightWatchJS and Gained all possible knowledge that i could in last 4 days.
 
