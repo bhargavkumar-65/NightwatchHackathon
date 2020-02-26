@@ -17,7 +17,7 @@
 
 <h2 align="center">Project Architecture</h2>
 
-![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/ProjectArchitecture.PNG)
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/FrameworkArchitecture.PNG)
 
 
 ## What Makes this Framework Unique?
@@ -83,6 +83,14 @@ a.k.a Human Eye Testing, VRT is user-interface(UI) testing by capturing the scre
 * upon running command [npm run test:vrt] Scripts Will Perform Below
 	* Download the logo of telus.com, Giraffee image on home screen and GetStarted Button Image
 	* Once download is Complete it compares with BaseLine images which is captured in previous runs and Gives Us Result
-	
-* For More Info on Visual Regression Test Understanding Checkout the Video on this Repo Document Section. 
+
+## How Visual Validation Works?
+
+
+<h2 align="center">Visual Validation</h2>
+
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/VisualRegression.PNG)
+
+
+* For More Info on Visual Regression Test Understanding Checkout the Video on this Repo Document [Section](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Documentation/Visual%20Regression) 
 
