@@ -107,4 +107,4 @@ a.k.a Human Eye Testing, VRT is user-interface(UI) testing by capturing the scre
 
 ## Continuous Integration On Azure DevOps
 
-![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/CI_Azure_DevOps.PNG)
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/AzureBuild.gif)

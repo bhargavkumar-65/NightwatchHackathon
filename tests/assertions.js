@@ -19,7 +19,6 @@ module.exports = {
             .maximizeWindow()
             .verify.urlContains('en/') //Using verify Instead of .assert to just log the failure and continue
             .verify.not.urlContains('ens/')
-            .pause(20000)
             .waitForElementVisible('@BusinessTab',40000)
             .linkclick('@BusinessTab')
             .pause(3000)
@@ -45,6 +44,7 @@ module.exports = {
             .assert.not.visible('@HiddenElement')
             .expect.element('@HiddenElement').not.to.be.visible /* Same as assert.not.visible */
        /* .expect.element('@HiddenElement').not.to.be.visible.to.have.css('.fsbrBF.sc-fONwsr').which.equals('.fsbrBF.sc-fONwsr') */
+            .end()
             
 
 
