@@ -1,4 +1,5 @@
 module.exports = {
+  
     before : function(browser) {
         console.log('...STARTING ASSERTIONS TEST...');
       },
@@ -18,6 +19,11 @@ module.exports = {
             .maximizeWindow()
             .verify.urlContains('en/') //Using verify Instead of .assert to just log the failure and continue
             .verify.not.urlContains('ens/')
+            .pause(20000)
+            .waitForElementVisible('@BusinessTab',40000)
+            .linkclick('@BusinessTab')
+            .pause(3000)
+            .linkclick('@SmallBusinessTab')
             .assert.urlEquals('https://www.telus.com/en/')
             .assert.titleContains('TELUS')
             .expect.cookie('AAMC_telus_0').to.contain('REGION%7C12')

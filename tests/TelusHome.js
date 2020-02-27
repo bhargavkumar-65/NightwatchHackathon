@@ -1,4 +1,5 @@
 module.exports = {
+
     before : function(browser) {
         console.log('...STARTING TEST...');
       },
@@ -70,4 +71,5 @@ module.exports = {
                 .pause(30000)
                 .saveScreenshot('tests_output/this3.png')
      }
+     
 };

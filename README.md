@@ -1,5 +1,6 @@
 # Project Submission By Bhargav Murarisetty
 [![LinkedIn](https://github.com/bhargavkumar-65/dummyrepo/blob/master/1280px-LinkedIn_Logo.svg.png)](https://www.linkedin.com/in/bhargavmurari/)
+(https://github.com/bhargavkumar-65/NightWatchHackathon/pull/1/checks)
 ### Hackathon Announcement Date: 21-Feb-2020 
 ##### I tried to Learn JavaScript, NightWatchJS and Gained all possible knowledge that i could in last 4 days.
 
@@ -87,7 +88,7 @@ a.k.a Human Eye Testing, VRT is user-interface(UI) testing by capturing the scre
 
 ## How Visual Validation Works?
 
-![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/VisualRegression.PNG)
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/VisualRegression2.PNG)
 
 
 * For More Info on Visual Regression Test Understanding Checkout the Video on this Repo Document [Section](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Documentation/Visual%20Regression) 
