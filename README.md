@@ -18,7 +18,7 @@
 
 <h2 align="center">Project Architecture</h2>
 
-![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/FrameworkArchitecture.PNG)
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/FrameworkArchitecture.PNG)
 
 
 ## What Makes this Framework Unique?
@@ -75,7 +75,7 @@
 
 ## Running Tests on Docker Selenium Grid
 
-![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/Zalenium.JPG)
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/Zalenium.JPG)
 
 
 
@@ -88,7 +88,7 @@ a.k.a Human Eye Testing, VRT is user-interface(UI) testing by capturing the scre
 
 ## How Visual Validation Works?
 
-![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/VisualRegression2.PNG)
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/VisualRegression2.PNG)
 
 
 * For More Info on Visual Regression Test Understanding Checkout the Video on this Repo Document [Section](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Documentation/Visual%20Regression) 
@@ -101,4 +101,4 @@ a.k.a Human Eye Testing, VRT is user-interface(UI) testing by capturing the scre
 
 ## Continuous Integration On Azure DevOps
 
-![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Sample%20HTML%20Reports/CI_Azure_DevOps.PNG)
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/CI_Azure_DevOps.PNG)
