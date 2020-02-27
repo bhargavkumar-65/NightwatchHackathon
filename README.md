@@ -100,8 +100,8 @@ a.k.a Human Eye Testing, VRT is user-interface(UI) testing by capturing the scre
 
 
 ## Continuous Code Quality Checks using SonarQube
-To Understand why code quality checks is important checkout my LinkedIn [article](https://www.linkedin.com/pulse/test-automation-write-bug-free-code-maintain-quality-bhargav-murari/)
-Alternatively, checkout the videos under document [section](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Documentation/SonarQube)
+* To Understand why code quality checks is important checkout my LinkedIn [article](https://www.linkedin.com/pulse/test-automation-write-bug-free-code-maintain-quality-bhargav-murari/)
+* Alternatively, checkout the videos under document [section](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Documentation/SonarQube)
 ![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/sonar.png)
 
 
