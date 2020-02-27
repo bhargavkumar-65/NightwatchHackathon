@@ -3,11 +3,16 @@ module.exports =  {
   "src_folders" : ["tests"],
   "page_objects_path" : ["page-objects"],
   "globals_path" : "global.js",
-  "webdriver": {
+/*   "webdriver": {
       "start_process": "true",
       "server_path": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe",
       "port": 9515
-  },
+  }, */
+  'webdriver': {
+    'start_process': true,
+    'server_path': require('chromedriver').path,
+    'port': 9515
+},
   "test_settings": {
       "default": {
   //      "test_runner" : "mocha",
