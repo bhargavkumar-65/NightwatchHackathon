@@ -73,11 +73,11 @@
 4. Allure Reports
 5. Azure Devops Pipelines
 
-## Running Tests on Docker Selenium Grid
+## Parallel Execution on Docker Grid
 
-![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/Zalenium1.PNG)
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/zalenm.png)
 
-
+More Information on Zalenium checkout their [Site](https://opensource.zalando.com/zalenium/)
 
 ## How To Run Tests
 1. UI Only Tests : npm run test -- test:ui
