@@ -2,7 +2,7 @@
 [![LinkedIn](https://github.com/bhargavkumar-65/dummyrepo/blob/master/1280px-LinkedIn_Logo.svg.png)](https://www.linkedin.com/in/bhargavmurari/)
 
 ### Hackathon Announcement Date: 21-Feb-2020 
-##### I tried to Learn JavaScript, NightWatchJS and Gained all possible knowledge that i could in last 4 days.
+##### I tried to Learn JavaScript, NightWatchJS and Gained all possible knowledge that i could within a week.
 
 ##### My primary focus was on simplicity, Ease of use Framework that Cover Todays Software Testing Needs. I tried to make it as generic and reusable as possible. In the worst case, you can use this as a learning guide for your projects.
 
