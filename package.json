@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nightwatch -c ./nightwatch.conf.js",
+    "test:headless" : "nightwatch --tests/assertions.js -c ./chrome-headless.conf.js",
     "test:ui": "nightwatch -- tests/TelusHome.js",
     "test:assertions": "nightwatch -- tests/assertions.js",
     "test:vrt": "nightwatch -c nightwatch.vrt.conf.js",
