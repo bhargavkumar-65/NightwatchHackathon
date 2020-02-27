@@ -75,7 +75,7 @@
 
 ## Running Tests on Docker Selenium Grid
 
-![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/Zalenium.JPG)
+![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/Zalenium1.PNG)
 
 
 
