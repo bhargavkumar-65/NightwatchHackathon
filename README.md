@@ -1,6 +1,6 @@
 # Project Submission By Bhargav Murarisetty
 [![LinkedIn](https://github.com/bhargavkumar-65/dummyrepo/blob/master/1280px-LinkedIn_Logo.svg.png)](https://www.linkedin.com/in/bhargavmurari/)
-(https://github.com/bhargavkumar-65/NightWatchHackathon/pull/1/checks)
+
 ### Hackathon Announcement Date: 21-Feb-2020 
 ##### I tried to Learn JavaScript, NightWatchJS and Gained all possible knowledge that i could in last 4 days.
 
@@ -24,10 +24,10 @@
 ## What Makes this Framework Unique?
 
 > [**“Page Object Model”**](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/page-objects)<br>
-> — To Organize code
+> — For Object Reference across the tests, Code Reusability
 
 > [**“Docker Grid”**](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Docker_Files/Zalenium/yaml)<br>
-> — For Parallel Executions on Docker Containers
+> — For Parallel Executions on Docker Containers Using Zalenium
 
 > [**“SonarQube Integration"**](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Docker_Files/sonarqube/yaml)<br>
 > — For Continuous Code Quality Checks
@@ -36,7 +36,7 @@
 > — Custom Commands in Package.Json for Ease of Run
 
 > [**“Azure PipeLine"**](https://dev.azure.com/)<br>
-> — Azure DevOps Pipeline Connection
+> — Azure DevOps For Continuous Integration and Continuous Test
 
 
 ### What All Custom Test RUN Commands are Created?
