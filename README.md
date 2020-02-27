@@ -104,8 +104,6 @@ To Understand why code quality checks is important checkout my LinkedIn [article
 Alternatively, checkout the videos under document [section](https://github.com/bhargavkumar-65/NightWatchHackathon/tree/master/Documentation/SonarQube)
 ![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/sonar.png)
 
-![](https://github.com/bhargavkumar-65/NightWatchHackathon/blob/master/Documentation/Images/sonar2.png)
-
 
 ## Continuous Integration On Azure DevOps
 
